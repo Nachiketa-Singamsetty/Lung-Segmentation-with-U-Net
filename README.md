@@ -1,53 +1,51 @@
 # Lung Segmentation with U-Net
 
+**Technologies:** U-Net Architecture, Python  
+**Date:** January 2025
+
+Developed a lung segmentation model using U-Net architecture, optimizing for medical imaging tasks with a precision rate of 73%. Fine-tuned hyperparameters to improve segmentation accuracy across diverse datasets.
+
+---
+
+## Overview
+
 This repository contains an implementation of lung segmentation using the U-Net deep learning architecture. The model is trained to segment lung regions from chest X-ray images, which is crucial for various medical image analysis tasks.
 
-## 📌 Features
-- Implements U-Net for lung segmentation.
-- Preprocessing of chest X-ray images.
-- Training and evaluation of the model using a dataset.
-- Visualization of segmented outputs.
-- Performance metrics for evaluation.
+## Installation
 
-## 📂 Project Structure
-📁 Lung-Segmentation-with-U-Net │── 📜 Lung_Segmentation_UNET.ipynb # Jupyter Notebook with full implementation │── 📁 data/ # Directory for dataset (not included) │── 📁 models/ # Saved model weights │── 📁 results/ # Segmentation results │── 📜 README.md # Project documentation │── 📜 requirements.txt # Required dependencies
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Nachiketa-Singamsetty/Lung-Segmentation-with-U-Net
+cd lung-segmentation-unet
+```
 
-bash
-Copy
-Edit
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/Nachiketa-Singamsetty/Lung-Segmentation-with-U-Net.git
-cd Lung-Segmentation-with-U-Net
-2️⃣ Install Dependencies
-Ensure you have Python installed. Then install the required libraries using:
-
-sh
-Copy
-Edit
+### 2. Install Dependencies
+Make sure you have Python installed. Then install the required libraries using:
+```bash
 pip install -r requirements.txt
-3️⃣ Run the Jupyter Notebook
-Launch Jupyter Notebook and open Lung_Segmentation_UNET.ipynb:
+```
 
-sh
-Copy
-Edit
+### 3. Run the Notebook
+Launch the Jupyter Notebook and open `Lung_Segmentation_UNET.ipynb`:
+```bash
 jupyter notebook
-Follow the instructions inside the notebook to train and evaluate the model.
+```
+Follow the step-by-step instructions provided in the notebook to train and evaluate the model.
 
-📊 Results
-The model successfully segments lung regions from chest X-ray images.
-Below is an example of a segmented output:
+## Results
+
+The model achieves a precision rate of 73% in segmenting lung regions from chest X-ray images. Below is an example of a segmented output:
+
 <p align="center"> <img src="results/sample_output.png" alt="Segmented Lung Example" width="500px"> </p>
-🛠 Technologies Used
-Python 🐍
-TensorFlow / Keras
-OpenCV
-NumPy & Pandas
-Matplotlib for visualization
-🤝 Acknowledgments
-The dataset used for training is sourced from Kaggle.
-U-Net model architecture reference: Ronneberger et al. (2015).
+
+## Technologies Used
+
+- **U-Net Architecture**: The core model for segmentation.
+- **Python**: Programming language for development.
+- **TensorFlow/Keras**: Deep learning frameworks.
+- **OpenCV & NumPy**: For image processing and manipulation.
+- **Matplotlib**: For visualizing results.
+
+---
+
+Feel free to contribute or report any issues! 🚀
