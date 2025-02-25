@@ -34,9 +34,7 @@ Follow the step-by-step instructions provided in the notebook to train and evalu
 
 ## Results
 
-The model achieves a precision rate of 73% in segmenting lung regions from chest X-ray images. Below is an example of a segmented output:
-
-<p align="center"> <img src="results/sample_output.png" alt="Segmented Lung Example" width="500px"> </p>
+The model achieves a precision rate of 73% in segmenting lung regions from chest X-ray images. 
 
 ## Technologies Used
 
